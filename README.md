@@ -26,3 +26,11 @@ This project is an admission form for Yoga Classes, allowing users to enroll for
    cd yoga-admission-form
 
    npm install
+
+
+   ## Database Design
+
+The database design, including the Entity-Relationship (ER) diagram, can be found below:
+
+![ER Diagram](/path/to/er-diagram.png)
+
