@@ -1,8 +1,27 @@
-# React + Vite
+# Yoga Admission Form
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This project is an admission form for Yoga Classes, allowing users to enroll for monthly classes, make payments, and choose class batches. The project is built using React for the frontend and Node.js with Express for the backend.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- Accepts user details, including name, age, and selected batch.
+- Performs basic validations on user input.
+- Makes a call to a REST API to submit the form and handle payments.
+- Stores user data in a mock database.
+- Returns a response to the frontend based on the payment result.
+
+## Project Structure
+
+- `/yoga-admission-form` - React frontend project.
+- `/yoga-backend` - Node.js backend project.
+
+## Getting Started
+
+### Frontend (React)
+
+1. Install dependencies:
+   ```bash
+   cd yoga-admission-form
+   npm install
