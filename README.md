@@ -23,6 +23,6 @@ This project is an admission form for Yoga Classes, allowing users to enroll for
 
 1. Install dependencies:
    ```bash
-   cd yoga-admission-form![erNew drawio](https://github.com/Harryagarwal/flexMoney/assets/86568123/b16bd9d4-ce73-4c0e-8b2f-018b39ff7acb)
+   cd yoga-admission-form
 
    npm install
